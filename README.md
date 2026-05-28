@@ -51,23 +51,24 @@ The analysis includes 10 publication-quality visualizations:
 
 ```
 healthcare-cost-analysis/
-├── data/
-│   ├── insurance.csv           # Raw dataset
-│   └── insurance_cleaned.csv   # Processed dataset
-├── notebooks/
-│   └── healthcare_cost_eda.ipynb  # Main analysis notebook
-├── visualizations/
-│   ├── 01_outlier_boxplots.png
-│   ├── 02_charges_distribution.png
-│   ├── 03_numeric_distributions.png
-│   ├── 04_categorical_distributions.png
-│   ├── 05_correlation_heatmap.png
-│   ├── 06_charges_by_category.png
-│   ├── 07_scatter_relationships.png
-│   ├── 08_interaction_effects.png
-│   ├── 09_pairplot.png
-│   └── 10_executive_summary.png
+├── healthcare_cost_eda.ipynb   # Main analysis notebook
+├── insurance.csv               # Raw dataset
+├── insurance_cleaned.csv       # Processed dataset
+├── 01_outlier_boxplots.png
+├── 02_charges_distribution.png
+├── 03_numeric_distributions.png
+├── 04_categorical_distributions.png
+├── 05_correlation_heatmap.png
+├── 06_charges_by_category.png
+├── 07_scatter_relationships.png
+├── 08_interaction_effects.png
+├── 09_pairplot.png
+├── 10_executive_summary.png
+├── linkedin_summary_dark.png
+├── linkedin_summary_light.png
+├── linkedin_feed_image.png
 ├── requirements.txt
+├── LICENSE
 └── README.md
 ```
 
@@ -77,7 +78,7 @@ healthcare-cost-analysis/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/healthcare-cost-analysis.git
+git clone https://github.com/Mo-reece/healthcare-cost-analysis.git
 cd healthcare-cost-analysis
 
 # Create virtual environment
@@ -170,5 +171,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Author:** [Okurut Maurice Leonard]
-
 
